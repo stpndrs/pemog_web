@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JS</title>
+</head>
+
+<body>
+
+
+    <script>
+        document.write('<h2>Halo H2 dari HTML</h2><br>')
+        document.write('Text ini dicetak oleh JS<br>')
+        console.log('Text ini tercetak di console browser');
+
+        // ini komentar 1 baris
+        /* ini teks komentar
+            komentarnya 2 baris */
+
+        // kalau deklarasi variabel pakai ;
+        // kalau let dan const gak bisa bikin nama variabel yang sama, sendangkan kalau var bisa
+        var a = 12;
+        let b = 10;
+        // const a =   9; // constanta
+
+        a = 8; // ini error
+        b = 5; // ini tidak error
+
+        let kata = "stepan"; // string
+        let nilai = 10.5; // float/double
+        let status = false; // boolean
+        // const a = 2; // constanta
+
+        let c;
+
+        c = b + 10;
+        document.write(c);
+
+        let label = "Nama saya";
+        
+        let namaLengkap = label + " " + kata;
+        document.write(namaLengkap);
+
+        let e = "20";
+        let d = c + parseInt(e);
+        document.write(d);
+    </script>
+</body>
+
+</html>

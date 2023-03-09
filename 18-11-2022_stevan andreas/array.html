@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array JavaScript</title>
+</head>
+
+<body>
+    <script>
+        const a = ['fatur', 'stevan', 'ihsan']
+        console.log(a[0]);
+
+        const b = []
+        b[0] = 'fatur'
+        b[1] = 'stevan'
+        b[2] = 'ihsan'
+        console.log(b);
+
+        const c = new Array ('fatur', 'stevan', 'ihsan')
+        console.log(c);
+
+        function printResult(ind) {
+            const a = ['fatur', 'stevan', 'ihsan']
+
+            return a[ind]
+        }
+
+        let nama = printResult(1)
+        document.write(nama)
+
+        // Chalanges
+        // 1. kasihArray(10, 20) => [10, 20]
+        // 2. totalVote(up, down) => totalVote(10, 20) => 10 (karna down dikurang up)
+
+        function kasihArray(params1, params2) {
+            const a = new Array (params1, params2)
+
+            return a
+        }
+        console.log(kasihArray(10, 20));
+
+        function totalVote(up, down) {
+            const a = down - up
+
+            return a
+        } 
+        console.log(totalVote(10, 20));
+        </script>
+</body>
+
+</html>

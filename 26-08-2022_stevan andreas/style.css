@@ -1,0 +1,39 @@
+body {
+    padding: 30vh;
+    background: white url('haikal.jpeg') repeat center center;
+}
+
+/* #top {
+    background-color: #ccc;
+    padding: 20px;
+}
+
+#top h1 {
+    color: #ff0;
+}
+
+#top p {
+    color: red;
+    font-weight: bold;
+}
+
+h1, .intro {
+    color: red;
+}
+
+
+a:link {
+    color: yellow;
+}
+
+a:hover {
+    color: green;
+}
+
+a:focus {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+} */

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+</head>
+
+<body>  
+    <h1>Form</h1>
+    <label for="nama">Nama</label>
+    <input type="text" name="nama" id="nama" placeholder="Nama anda">
+    <br>
+    <label for="alamat">Alamat</label>
+    <textarea name="alamat" id="alamat" cols="30" rows="10" placeholder="Alamat"></textarea>
+    <br>
+    <label for="tgllahir">Tanggal Lahir</label>
+    <input type="date" name="tgllahir" id="tgllahir">
+    <br>
+    <br>
+    <button type="button" id="tampilkan">Submit</button>
+
+    <hr>
+    <h1>Result</h1>
+    <div id="result"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $("#tampilkan").click(function() {
+                var nama = $("#nama").val()
+                var alamat = $("#alamat").val()
+                var tgllahir = $("#tgllahir").val()
+                console.log(nama);
+                $("#result").html(
+                    `
+                    <p>Nama anda adalah ${nama}</p>
+                    <p>Alamat anda adalah ${alamat}</p>
+                    <p>Tanggal lahir anda adalah ${tgllahir}</p>
+                    `
+                )
+            })
+        })
+    </script>
+</body>
+
+</html>

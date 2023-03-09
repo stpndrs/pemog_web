@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fokus_nama(el) {
+            // alert("fokus pada nama")
+            el.style.background = "black";
+        }
+        function fokus_komentar(el) {
+            // alert("fokus pada komentar")
+            el.style.background = "yellow";
+        }
+        function bye_nama(el) {
+            // alert("meninggalkan nama")
+            el.style.background = "red";
+        }
+        function bye_komentar(el) {
+            // alert("meninggalkan komentar")
+            el.style.background = "green";
+        }
+    </script>
+</head>
+<body>
+    <h1>Mengenal Event onFocus dan onBlur</h1>
+    <form action="" name="formku">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama" id="" onfocus="fokus_nama(this)" onblur="bye_nama(this)"></td>
+            </tr>
+            <tr>
+                <td>Komentar</td>
+                <td><textarea name="komentar" cols="20" rows="5" onfocus="fokus_komentar(this)" onblur="bye_komentar(this)" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><a href="#" onfocus="fokus_nama(this)" onblur="bye_nama(this)">tes</a></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

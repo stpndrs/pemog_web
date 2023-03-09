@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Nunito&display=swap');
+
+* {
+    /* margin: 0; */
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #F5AB35;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+header,
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    clear: both;
+}
+
+nav {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 10px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    z-index: 100;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    /* background-color: rgb(184, 184, 184); */
+    margin-right: 15px;
+    padding: 10px;
+}
+
+nav ul li#right {
+    float: right;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    clear: both;
+}
+
+section {
+    padding: 2px;
+}
+
+section#left {
+    float: left;
+    width: 73%;
+}
+
+section#right {
+    float: right;
+    width: 25%;
+}
+
+.card {
+    padding: 20px;
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.image {
+    padding: 50px;
+    background-color: gray;
+}
+
+#about img {
+    width: 100%;
+}
+
+#projects .project {
+    background-color: white;
+    padding: 1rem;
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#projects a {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#projects img:hover {
+    transition: transform .3s ease;
+    transform: scale(1.2);
+}
+
+#projects hr {
+    border: unset;
+    border-bottom: 1px solid black;
+}
+
+#projects img {
+    width: 100%;
+    transition: transform .3s ease;
+}

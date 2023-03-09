@@ -1,0 +1,37 @@
+body {
+    font-size: 14px;
+    color: navy;
+}
+
+p {
+    color: rgb(255, 184, 28);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: overline;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* jarak antar huruf */
+    word-spacing: 20px;
+    /* jarak antar kata */
+    line-height: 40px;
+    /* jarak antar baris */
+    text-align: center;
+    text-indent: 25px;
+    /* memberi jarak baris pertama ke dalam */
+}
+
+h2 {
+    font-size: 1.5em;
+    background-color: #ccc;
+
+    margin: 20px 15px 10px 20px; /* 1 = semua sisi, 2 = atas bawah & kiri kanan, 3 = atas & kanan & bawah kiri, 4 = atas & kanan & bawah & kiri */
+    padding: 40px 30px 20px 10px; /* 1 = semua sisi, 2 = atas bawah & kiri kanan, 3 = atas & kanan & bawah kiri, 4 = atas & kanan & bawah & kiri */
+    
+    border: 5px dashed #000; /* width, style, color */
+    border-width: 5px;
+    border-style: dashed;
+    border-color: #000;
+    border-radius: 10px;
+}

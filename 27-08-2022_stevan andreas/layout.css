@@ -1,0 +1,43 @@
+body {
+    /* background-color: pink; */
+    background-color: #e0d0fe;
+    font-family: 'Times New Roman', Times, serif;
+}
+div {
+    padding: 5px;
+}
+#header {
+    width: 100%;
+    background-color: #5f9eff;
+    text-align: center;
+}
+#header h1 {
+    color: red;
+}
+#header h3 {
+    color: #ff0;
+}
+#navkiri, #navkanan {
+    background-color: #add8e6;
+    height: 500px;
+}
+#navkiri {
+    width: 15%;
+    float: left;
+}
+#navkanan {
+    width: 20%;
+    float: right;
+}
+#content {
+    background-color: #fdf5e6;
+    width: 65%;
+    height: 500px;
+    text-indent: 50px;
+    /* font-size: 21pt; */
+    margin-left: 15%;
+}
+#footer {
+    background-color: #8fbc8f;
+    height: 40px;
+}

@@ -1,0 +1,35 @@
+#container {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #000;
+}
+
+#header {
+    width: 100%;
+    height: 200px;
+    background: aqua;
+}
+
+#sidebar {
+    width: 35%;
+    height: 100px;
+    background: green;
+    float: left;
+}
+
+#content {
+    width: 65%;
+    height: 100px;
+    background: purple;
+    float: right;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+#footer {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}

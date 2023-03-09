@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>Form Data Siswa</title>
+</head>
+
+<body>
+    <form method="post">
+        <table border cellspacing="1" align="center">
+            <thead>
+                <tr>
+                    <td colspan="2" align="center">
+                        <h1><b>Data Siswa</b></h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td><input type="text" name="namaLengkap"></td>
+                </tr>
+                <tr>
+                    <td>Nama Panggilan</td>
+                    <td><input type="text" name="namaPanggilan"></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>
+                        <select name="agama" id="">
+                            <option value="Katolik">Katolik</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Islam">Islam</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Konghucu">Konghucu</option>
+                        </select>
+                        ?
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <select name="jenkel" id="">
+                            <option value="Laki-laki">Laki-laki</option>
+                            <option value="Perempuan">Perempuan</option>
+                        </select>
+                        ?
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>
+                        <textarea name="alamat" id="" cols="30"
+                            rows="10">jangan lupa isikan alamat Anda di kotak ini !!!</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <font size="10">&reg;&reg;&reg;</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <font size="10">&copy;&copy;&copy;</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobby</td>
+                    <td>
+                        <input type="radio" name="radio" id="radio">
+                        <label for="radio">Membaca</label>
+                        <input type="radio" name="radio" id="radio">
+                        <label for="radio">Menulis</label>
+                        <input type="radio" name="radio" id="radio">
+                        <label for="radio">Menyanyi</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Makanan favorit</td>
+                    <td>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Soto</label>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Bakso</label>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">Nasi Goreng</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="SUBMIT"></td>
+                    <td align="center"><input type="reset" value="RESET"></td>
+                </tr>
+            </thead>
+        </table>
+    </form>
+</body>
+
+</html>

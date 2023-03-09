@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Functional</title>
+	<script>
+	function faktorisasi(a) {
+    let hasil = 0;
+	var array = [];
+    // if(a <= 0){}
+    for (let i = a; i>=1; i--){
+        array.unshift(i);
+        hasil = hasil + i;
+        faktor = "Faktorisasi dari Angka "+a+" adalah "+array.join(" + ")+" = "+ hasil;
+    }
+    return faktor;
+}
+	</script>
+</head>
+<body>
+<script>
+	var x,y;
+	x = 4;
+	y = faktorisasi(x);
+    document.write(y);
+</script>
+</body>
+</html>

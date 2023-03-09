@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INI TUGAS PUNYA STEPAN</title>
+</head>
+
+<body>
+    <script>
+        function sumUp(length) {
+            let sum = 0;
+            let penjumlahan;
+            for (let i = 1; i <= length; i++) {
+                sum += i;
+                if (i === length) {
+                    document.write(i + " = " + sum)
+                } else {
+                    document.write(i + " + ")
+                }
+            }
+
+            // return sum;
+        }
+        let angka1 = 4
+        let angka2 = 6
+        // var angka = parseInt(prompt("Masukkan Angka Untuk Dihitung "))
+        sumUp(angka1)
+        document.write("<br>")
+        sumUp(angka2)
+    </script>
+</body>
+
+</html>

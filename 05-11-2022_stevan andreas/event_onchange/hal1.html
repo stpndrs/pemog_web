@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function ubah_nama() {
+            alert("Nama Anda " + formku.nama.value)
+        }
+        function ubah_kota() {
+            alert("Anda berada di kota " + formku.kota.value)
+        }
+    </script>
+</head>
+<body>
+    <h1>Mengenal Event onChange</h1>
+    <form action="" name="formku">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" name="nama" onchange="ubah_nama()" id=""></td>
+            </tr>
+            <tr>
+                <td>Kota</td>
+                <td>
+                    <select name="kota" id="" onchange="ubah_kota()">
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Jogja">Jogja</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
